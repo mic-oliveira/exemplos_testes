@@ -5,7 +5,7 @@ use Exemplos\ClasseB;
 use Exemplos\ExemploDuble;
 use PHPUnit\Framework\TestCase;
 
-class ExamploDubleTest extends TestCase
+class ExemploDubleTest extends TestCase
 {
     public function test_duble_de_teste()
     {
