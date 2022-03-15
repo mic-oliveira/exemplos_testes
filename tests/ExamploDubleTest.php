@@ -9,7 +9,7 @@ class ExamploDubleTest extends TestCase
 {
     public function test_duble_de_teste()
     {
-        // exemplo de instancia de objeto com composição no construtor
+        // exemplo de instância de objeto com composição no construtor
         $classeB = new ClasseB(new ClasseA());
         // exemplo de duble de duble da classe B
         $classeB = $this->createMock(ClasseB::class);
