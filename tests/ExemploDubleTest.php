@@ -11,7 +11,7 @@ class ExemploDubleTest extends TestCase
     {
         // exemplo de instância de objeto com injeção de dependência
         $classeB = new ClasseB(new ClasseA());
-        // exemplo de duble de duble da classe B
+        // exemplo de duble da classe B
         $classeB = $this->createMock(ClasseB::class);
         $classeB->method('fazerAlgumaCoisa')->willReturn('Duble que retorna o método com o valor esperado');
         $exemploDuble = new ExemploDuble($classeB);
