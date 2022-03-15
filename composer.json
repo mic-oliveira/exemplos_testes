@@ -1,0 +1,21 @@
+{
+    "name": "michaeloliveira/exemplos_testes",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Oliveira",
+            "email": "oliveiramichael@outlook.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Exemplos\\": "src"
+        }
+    },
+    "scripts": {
+        "test": "@php vendor/bin/phpunit tests"
+    }
+}
